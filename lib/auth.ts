@@ -10,4 +10,7 @@ export const auth = betterAuth({
         password: "123456",
         database: "authmariadb",
     }),
+    emailAndPassword:{
+        enabled:true,
+    }
 });
